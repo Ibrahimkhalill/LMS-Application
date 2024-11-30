@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "WindoowDoorApp",
+    "slug": "WindoowDoorApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ibrahim_khalill.WindoowDoorApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ibrahim_khalill.WindoowDoorApp",
+      "usesCleartextTraffic": true,
+      "notification": {
+        "icon": "./app/assets/icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bcd2fe26-4568-48a7-8532-27a73b226ce1"
+      }
+    },
+    "owner": "ibrahim_khalill",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bcd2fe26-4568-48a7-8532-27a73b226ce1"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
